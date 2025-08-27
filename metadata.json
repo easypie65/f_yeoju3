@@ -1,0 +1,5 @@
+{
+  "name": "Quadratic Function Explorer",
+  "description": "An interactive web application to explore how coefficients affect the graph of a quadratic function y = ax² + bx + c.",
+  "requestFramePermissions": []
+}
