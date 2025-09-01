@@ -1,5 +1,5 @@
 {
-  "name": "quadratic-function-explorer",   // ✅ 새 프로젝트마다 변경
+  "name": "quadratic-function-explorer",
   "private": true,
   "version": "0.0.0",
   "type": "module",
