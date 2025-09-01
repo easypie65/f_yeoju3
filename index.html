@@ -1,36 +1,15 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ko">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>이차함수 계수별 그래프 변화 탐구</title>
+    <!-- Tailwind 필요 시 유지, 아니면 삭제 -->
     <script src="https://cdn.tailwindcss.com"></script>
-    <style>
-      @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap');
-      body {
-        background-color: #f7f8fc;
-        font-family: 'Noto Sans KR', sans-serif;
-      }
-      @keyframes fade-in {
-        0% { opacity: 0; transform: translateY(10px); }
-        100% { opacity: 1; transform: translateY(0); }
-      }
-      .animate-fade-in {
-        animation: fade-in 0.5s ease-out forwards;
-      }
-    </style>
-  <script type="importmap">
-{
-  "imports": {
-    "react/": "https://esm.sh/react@^19.1.1/",
-    "react": "https://esm.sh/react@^19.1.1",
-    "react-dom/": "https://esm.sh/react-dom@^19.1.1/"
-  }
-}
-</script>
-</head>
-  <body>
+  </head>
+  <body class="bg-slate-50">
     <div id="root"></div>
+    <!-- Vite가 엔트리로 index.tsx를 빌드함 -->
     <script type="module" src="/index.tsx"></script>
   </body>
 </html>
